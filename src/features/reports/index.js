@@ -1,0 +1,11 @@
+export { default as ReportsPage } from './pages/ReportsPage';
+export { default as ReportsKPIHeader } from './components/ReportsKPIHeader';
+export { default as ReportsFilterBar } from './components/ReportsFilterBar';
+export { default as ProfitabilityTab } from './components/ProfitabilityTab';
+export { default as TopProductsTab } from './components/TopProductsTab';
+export { default as CashCutsTab } from './components/CashCutsTab';
+export { default as ShrinkageReportTab } from './components/ShrinkageReportTab';
+export { default as CashCutDetailModal } from './components/CashCutDetailModal';
+export { default as useReports } from './hooks/useReports';
+export { adaptExecutiveReport } from './adapters/reportAdapter';
+export { getExecutiveReport } from './api/reportsApi';

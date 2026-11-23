@@ -1,0 +1,9 @@
+export { default as InventoryPage } from './pages/InventoryPage';
+export { default as InventoryKPIHeader } from './components/InventoryKPIHeader';
+export { default as InventoryFilterBar } from './components/InventoryFilterBar';
+export { default as StockLevelsTable } from './components/StockLevelsTable';
+export { default as KardexHistoryTable } from './components/KardexHistoryTable';
+export { default as InventoryMovementModal } from './components/InventoryMovementModal';
+export { default as useInventory } from './hooks/useInventory';
+export { adaptInventoryItem, adaptKardexMovement, adaptMovementToBackend } from './adapters/inventoryAdapter';
+export { getInventory, getKardexMovements, registerInventoryMovement } from './api/inventoryApi';
